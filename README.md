@@ -1,17 +1,17 @@
 <a name="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
-## About The Project
+# Notes and Code from "Effective Java, Third Edition" Book
+
 <div align="center">
 
   <h3 align="center">
-    This repository is only for my studies of the book.
-    It contains my notes in my words and not exactly as it is in the book.
+    This repository contains notes, summaries, and code examples based on the book "Effective Java, Third Edition" written by Joshua Bloch.
   </h3>
 
   <br />
@@ -34,6 +34,25 @@
   <br />
 
 </div>
+
+### Copyright Notice
+
+All content in this repository is based on the book "Effective Java, Third Edition", and the copyrights belong to Joshua Bloch and its respective publisher. This repository contains only a personal summary and notes made in my own words, intended to aid in the study and understanding of the book.
+
+Please note that this repository does not substitute for reading the original book. It is strongly recommended to obtain a copy of the book for a thorough and detailed study of the concepts covered.
+
+### Disclaimer
+
+While best efforts have been made to ensure the accuracy and quality of the information contained in this repository, there is no guarantee that they are free from errors or omissions. Readers are encouraged to use their own judgment and verify information as necessary.
+
+### Contribution
+
+Contributions are welcome! If you find any errors, have suggestions for improvements, or want to add more code examples, feel free to open an issue or send a pull request.
+
+### Acknowledgments
+
+Special thanks to Joshua Bloch for writing "Effective Java, Third Edition", a fundamental work for any Java developer.
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
