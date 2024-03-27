@@ -55,9 +55,7 @@
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-<div>
-  <summary></summary>
-  <br/>
+
   <ul>
     <li>
       <a href="#create-destroy">2. Criar e Destruir Objetos</a>
@@ -188,9 +186,6 @@
       Item 90: Pense em usar proxies de serialização em vez de instâncias serializadas
 
   </ul>
-</div>
-
-
 
 
 
