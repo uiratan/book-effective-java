@@ -19,11 +19,18 @@
     <img src="https://m.media-amazon.com/images/I/7167aaVxs3L._SY466_.jpg" alt="Logo" width="120" height="150">
   </a>
 
-  <a href="https://www.amazon.com.br/Effective-Java-3rd-Joshua-Bloch/dp/0134685997">
+  
   <h4 align="center">    
-    Effective Java, Third Edition - The definitive guide to Java programming language best practices from Josh Bloch
+    <a href="https://www.amazon.com.br/Effective-Java-3rd-Joshua-Bloch/dp/0134685997">
+    Effective Java, Third Edition - The definitive guide to Java programming language best practices from Josh Bloch</a>
   </h4>
+
+  <a href="https://github.com/jbloch/effective-java-3e-source-code">
+    Book´s official GitHub
   </a>
+  
+  
+  
   <br />
 
 </div>
