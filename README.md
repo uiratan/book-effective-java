@@ -43,7 +43,7 @@
       <a href="#create-destroy">2. Criar e Destruir Objetos</a>
       <ul>
         <li><a href="#create-destroy">Item 1: Considere os métodos static factory em vez dos construtores</a></li>
-        <li><a href="chapter1/item2">Item 2: Cogite o uso de um builder quando se deparar com muitos parâmetros no construtor</a></li>
+        <li><a href="src/chapter1/item2">Item 2: Cogite o uso de um builder quando se deparar com muitos parâmetros no construtor</a></li>
         <li><a href="#create-destroy">Item 3: Implemente a propriedade de um singleton com um construtor privado ou um tipo enum</a></li>
         <li><a href="#create-destroy">Item 4: Implemente a não instanciação através de construtores privados</a></li>
         <li><a href="#create-destroy">Item 5: Dê preferência à injeção de dependência para integrar recursos</a></li>
@@ -68,7 +68,7 @@
       <ul>
         <li><a href="#class-interface">Item 15: Reduza ao mínimo a acessibilidade das classes e de seus membros</a></li>
         <li><a href="#class-interface">Item 16: Use os métodos getters em classes públicas e não os campos públicos</a></li>
-        <li><a href="chapter4/item17">Item 17: Reduza a mutabilidade das classes ao mínimo</a></li>
+        <li><a href="src/chapter4/item17">Item 17: Reduza a mutabilidade das classes ao mínimo</a></li>
         <li><a href="#class-interface">Item 18: Prefira a composição à herança</a></li>
         <li><a href="#class-interface">Item 19: Projete e documente as classes para a herança ou a iniba</a></li>
         <li><a href="#class-interface">Item 20: Prefira as interfaces em vez das classes abstratas</a></li>
