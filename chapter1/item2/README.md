@@ -14,7 +14,7 @@
 
 ## Padrões e conceitos
 
-## Relacionado aos itens
+## Itens relacionados
 
 ## Conclusões 
 
