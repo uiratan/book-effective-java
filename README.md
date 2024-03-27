@@ -54,7 +54,7 @@
       <a href="#create-destroy">2. Criar e Destruir Objetos</a>
       <ul>
         <li><a href="#create-destroy">Item 1: Considere os métodos static factory em vez dos construtores</a></li>
-        <li><a href="#create-destroy">Item 2: Cogite o uso de um builder quando se deparar com muitos parâmetros no construtor</a></li>
+        <li><a href="chapter1/item2">Item 2: Cogite o uso de um builder quando se deparar com muitos parâmetros no construtor</a></li>
         <li><a href="#create-destroy">Item 3: Implemente a propriedade de um singleton com um construtor privado ou um tipo enum</a></li>
         <li><a href="#create-destroy">Item 4: Implemente a não instanciação através de construtores privados</a></li>
         <li><a href="#create-destroy">Item 5: Dê preferência à injeção de dependência para integrar recursos</a></li>
