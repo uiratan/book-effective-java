@@ -27,28 +27,36 @@
 
 
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+
+  <h3 align="center">
+    This repository is only for my studies of the book.
+    It contains my notes in my words and not exactly as it is in the book.
+  </h3>
+
   <a href="https://github.com/uiratan/book-effective-java">
     <img src="https://m.media-amazon.com/images/I/7167aaVxs3L._SY466_.jpg" alt="Logo" width="120" height="150">
   </a>
 
-  <h3 align="center">Effective Java, Third Edition</h3>
-
-  <p align="center">
-    The definitive guide to Java programming language best practices from Josh Bloch
-    <br />
-    <a href="https://www.amazon.com.br/Effective-Java-3rd-Joshua-Bloch/dp/0134685997"><strong>Buy the book</strong></a>
-    <br />
+  <h4 align="center">
+    Effective Java, Third Edition - The definitive guide to Java programming language best practices from Josh Bloch
+  </h4>
 
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
+## Table of Contents
 <div>
-  <summary>Table of Contents</summary>
+  <summary></summary>
   <br/>
   <ul>
     <li>
@@ -184,10 +192,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
-Este repositório é apenas de estudo. Não reflete o livro ao pé da letra.
 
 
 ### Built With
