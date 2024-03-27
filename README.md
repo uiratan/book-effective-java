@@ -79,7 +79,7 @@
       <ul>
         <li><a href="#class-interface">Item 15: Reduza ao mínimo a acessibilidade das classes e de seus membros</a></li>
         <li><a href="#class-interface">Item 16: Use os métodos getters em classes públicas e não os campos públicos</a></li>
-        <li><a href="#class-interface">Item 17: Reduza a mutabilidade das classes ao mínimo</a></li>
+        <li><a href="chapter4/item17">Item 17: Reduza a mutabilidade das classes ao mínimo</a></li>
         <li><a href="#class-interface">Item 18: Prefira a composição à herança</a></li>
         <li><a href="#class-interface">Item 19: Projete e documente as classes para a herança ou a iniba</a></li>
         <li><a href="#class-interface">Item 20: Prefira as interfaces em vez das classes abstratas</a></li>
