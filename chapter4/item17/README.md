@@ -1,4 +1,4 @@
-# Item 17: Reduza a mutabilidade das classes ao mínimoItem
+# Item 17: Reduza a mutabilidade das classes ao mínimo
 
 ## Resumo
 
