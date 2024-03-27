@@ -30,24 +30,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/uiratan/book-effective-java">
+    <img src="https://m.media-amazon.com/images/I/7167aaVxs3L._SY466_.jpg" alt="Logo" width="120" height="150">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Effective Java, Third Edition</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    The definitive guide to Java programming language best practices from Josh Bloch
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://www.amazon.com.br/Effective-Java-3rd-Joshua-Bloch/dp/0134685997"><strong>Buy the book</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+
 </div>
 
 
@@ -55,27 +49,135 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#create-destroy">2. Criar e Destruir Objetos</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#create-destroy">Item 1: Considere os métodos static factory em vez dos construtores</a></li>
+        <li><a href="#create-destroy">Item 2: Cogite o uso de um builder quando se deparar com muitos parâmetros no construtor</a></li>
+        <li><a href="#create-destroy">Item 3: Implemente a propriedade de um singleton com um construtor privado ou um tipo enum</a></li>
+        <li><a href="#create-destroy">Item 4: Implemente a não instanciação através de construtores privados</a></li>
+        <li><a href="#create-destroy">Item 5: Dê preferência à injeção de dependência para integrar recursos</a></li>
+        <li><a href="#create-destroy">Item 6: Evite a criação de objetos desnecessários</a></li>
+        <li><a href="#create-destroy">Item 7: Elimine referências obsoletas de objetos</a></li>
+        <li><a href="#create-destroy">Item 8: Evite o uso dos finalizadores e dos cleaners</a></li>
+        <li><a href="#create-destroy">Item 9: Prefira o uso do try -with-resources ao try - finally</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#commom-methods">3. Métodos Comuns para Todos os Objetos</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#commom-methods">Item 10: Obedeça ao contrato geral ao sobrescrever o equals</a></li>
+        <li><a href="#commom-methods">Item 11: Sobrescreva sempre o método hashCode ao sobrescrever o método equals</a></li>
+        <li><a href="#commom-methods">Item 12: Sobrescreva sempre o toString</a></li>
+        <li><a href="#commom-methods">Item 13: Sobrescreva o clone de modo sensato</a></li>
+        <li><a href="#commom-methods">Item 14: Pense na possibilidade de implementar a Comparable</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+    <li>
+      <a href="#class-interface">4. Classes e Interfaces</a>
+      <ul>
+        <li><a href="#class-interface">Item 15: Reduza ao mínimo a acessibilidade das classes e de seus membros</a></li>
+        <li><a href="#class-interface">Item 16: Use os métodos getters em classes públicas e não os campos públicos</a></li>
+        <li><a href="#class-interface">Item 17: Reduza a mutabilidade das classes ao mínimoItem 18: Prefira a composição à herança</a></li>
+        <li><a href="#class-interface">Item 19: Projete e documente as classes para a herança ou a iniba</a></li>
+        <li><a href="#class-interface">Item 20: Prefira as interfaces em vez das classes abstratas</a></li>
+        <li><a href="#class-interface">Item 21: Projete as interfaces para a posteridade</a></li>
+        <li><a href="#class-interface">Item 22: Use as interfaces somente para definir tipos</a></li>
+        <li><a href="#class-interface">Item 23: Dê preferência às hierarquias de classes em vez das classes tagged</a></li>
+        <li><a href="#class-interface">Item 24: Prefira as classes membro estáticas às não estáticas</a></li>
+        <li><a href="#class-interface">Item 25: Limite os arquivos fonte a uma única classe de nível superior</a></li>
+      </ul>
+    </li>
+
+      5. Genéricos
+      Item 26: Não use tipos brutos
+      Item 27: Elimine as advertências não verificadas
+      Item 28: Prefira as listas aos arrays
+      Item 29: Priorize os tipos genéricos
+      Item 30: Priorize os métodos genéricos
+      Item 31: Use os wildcards limitados para aumentar a flexibilidade da API
+      Item 32: Seja criterioso ao combinar os genéricos com os varargs
+      Item 33: Pense na possibilidade de usar contêineres heterogêneos typesafe
+
+      6. Enums e Anotações
+      Item 34: Use enums em vez de constantes int
+      Item 35: Use os campos de instância em vez dos valores ordinais
+      Item 36: Use a classe EnumSet em vez dos campos de bits
+      Item 37: Use EnumMap em vez da indexação ordinal
+      Item 38: Emule enums extensíveis por meio de interfaces
+      Item 39: Prefira as anotações aos padrões de nomenclatura
+      Item 40: Use a anotação Override com frequência
+      Item 41: Use as interfaces marcadoras para definir tipos
+
+      7. Lambdas e Streams
+      Item 42: Prefira os lambdas às classes anônimas
+      Item 43: Dê preferência às referências para métodos em vez dos lambdas
+      Item 44: Prefira o uso das interfaces funcionais padrão
+      Item 45: Seja criterioso ao utilizar as streams
+      Item 46: Dê preferência às funções sem efeitos colaterais nas streams
+      Item 47: Dê preferência à Collection como um tipo de retorno em vez da Stream
+      Item 48: Tenha cuidado ao fazer streams paralelas
+
+      8.Métodos
+      Item 49: Verifique a validade dos parâmetros
+      Item 50: Faça cópias defensivas quando necessário
+      Item 51: Projete as assinaturas de método com cuidado
+      Item 52: Utilize a sobrecarga com critério
+      Item 53: Use os varargs com sabedoria
+      Item 54: Retorne coleções ou arrays vazios, em vez de nulos
+      Item 55: Seja criterioso ao retornar opcionais
+      Item 56: Escreva comentários de documentação para todos os elementos da API
+      exposta
+
+      9. Programação Geral
+      Item 57: Minimize o escopo das variáveis locais
+      Item 58: Dê preferência aos loops for-each em vez dos tradicionais loops for
+      Item 59: Conheça e utilize as bibliotecas
+      Item 60: Evite o float e o double caso sejam necessárias respostas exatas
+      Item 61: Dê preferência aos tipos primitivos em vez dos tipos primitivos
+      empacotados
+      Item 62: Evite as strings onde outros tipos forem mais adequados
+      Item 63: Cuidado com o desempenho da concatenação de strings
+      Item 64: Referencie os objetos através das interfaces deles
+      Item 65: Dê preferência às interfaces em vez da reflexão
+      Item 66: Utilize os métodos nativos com sabedoria
+      Item 67: Seja criterioso ao otimizar
+      Item 68: Adote as convenções de nomenclatura geralmente aceitas
+
+      10. Exceções
+      Item 69: Utilize as exceções somente em circunstâncias excepcionais
+      Item 70: Utilize as exceções verificadas para condições recuperáveis e exceções
+      de runtime para erros de programação
+      Item 71: Evite o uso desnecessário das exceções verificadas
+      Item 72: Priorize o uso das exceções padrões
+      Item 73: Lance exceções adequadas para a abstração
+      Item 74: Documente todas as exceções lançadas por cada método
+      Item 75: Inclua as informações a respeito das capturas de falhas nos detalhes da
+      mensagem
+      Item 76: Empenhe-se para obter a atomicidade de falha
+      Item 77: Não ignore as exceções
+
+      11.Concorrência
+      Item 78: Sincronize o acesso aos dados mutáveis compartilhados
+      Item 79: Evite a sincronização excessiva
+      Item 80: Dê preferência aos executores, às tarefas e às streams em vez das
+      threads
+      Item 81: Prefira os utilitários de concorrência ao wait e ao notify
+      Item 82: Documente a thread safety
+      Item 83: Utilize a inicialização preguiçosa com parcimônia
+      Item 84: Não dependa do agendador de threads
+
+      12. Serialização
+      Item 85: Prefira alternativas à serialização Java
+      Item 86: Tenha cautela ao implementar a Serializable
+      Item 87: Pense na possibilidade de usar uma forma serializada customizada
+      Item 88: Escreva métodos readObject defensivamente
+      Item 89: Dê preferência aos tipos enum em vez do readResolve para controle
+      de instância
+      Item 90: Pense em usar proxies de serialização em vez de instâncias serializadas
+
+  </ul>
 </details>
 
 
